@@ -158,3 +158,64 @@ const char c[]='boy';
 const char *p;
 p=c;
 */
+
+//practice-04-使用静态成员函数统计学生平均成绩
+/*
+class Student
+{
+public:
+	Student(int n, int a, float s) :num(n), age(a), score(s) {}
+	void total();
+	static float average();
+private:
+	int num;
+	int age;
+	float score;
+	static float sum;
+	static int count;
+};
+void Student::total()
+{
+	sum += score;
+	count++;
+}
+float Student::average()
+{
+	return(sum / count);
+}
+float Student::sum = 0;
+int Student::count = 0;
+int main()
+{
+	Student stud[3] = { Student(1001,18,70),Student(1002,19,78),Student(1003,20,98) };
+	int n;
+	cout << "please input thr number of Student:";
+	cin >> n;
+	for (int i = 0;i < n;i++)stud[i].total();
+	cout << "average score:" << n << "student is" << Student::average() << endl;
+	return 0;
+}*/ 
+
+//类模板
+/*
+template <class numtype>
+class Compare
+{
+public:
+	Compare(numtype a, numtype b)
+	{x = a;y = b;}
+	numtype max()
+	{
+		return((x > y)?x:y)
+	}
+private:
+	numtype x, y;
+};
+//使用方法：
+Compare <int> cmp(4, 7);
+//模板可以有多个：
+template<class T1,class T2>
+class someclass {};
+//多模板使用：
+someclass <int, double> obj;
+*/
