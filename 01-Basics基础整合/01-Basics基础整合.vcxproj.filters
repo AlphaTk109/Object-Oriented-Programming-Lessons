@@ -18,6 +18,9 @@
     <ClCompile Include="01-类的基础Class basics.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="02-运算符重载基础-Overloading Basics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-类的基础·Class basics(头文件）.h">
