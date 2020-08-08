@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="01-类的基础Class basics.cpp" />
     <ClCompile Include="02-运算符重载基础-Overloading Basics.cpp" />
+    <ClCompile Include="03-继承与派生inheritance and derive Basics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-类的基础·Class basics(头文件）.h" />
