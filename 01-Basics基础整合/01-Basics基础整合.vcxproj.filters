@@ -24,6 +24,9 @@
     <ClCompile Include="03-继承与派生inheritance and derive Basics.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="04-多态性与虚函数Polumorphism and virtual function basics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-类的基础·Class basics(头文件）.h">
