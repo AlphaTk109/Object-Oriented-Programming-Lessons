@@ -32,7 +32,7 @@ private:
 */
 
 //#有子对象的派生类的构造函数：比如学生中有班长的例题
-/*
+
 class Student
 {
 public:
@@ -82,7 +82,7 @@ int main()
 	stud1.show_monitor();
 	return 0;
 }
-*/
+
 
 //#多重继承派生类的构造函数：
 /*
